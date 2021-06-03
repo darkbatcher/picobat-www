@@ -1,3 +1,8 @@
+---
+title: Doc
+description: Quick starting guide
+layout: default 
+---
 # Quick starting guide #
 
 **Picobat** is an open source command prompt meant to implement a superset of 
