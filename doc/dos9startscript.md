@@ -13,7 +13,7 @@ file associations.
 
 A variable containing the absolute path of a script used to handle operating 
 system file assocation. This script is crucial to ensure [START 
-command](start) and [Dos9](dos9) can run files that are not executable.
+command](start) and [Picobat](dos9) can run files that are not executable.
 
 The script referred to by **%DOS9\_START\_SCRIPT%** is called with the 
 following command line:
@@ -24,11 +24,11 @@ following command line:
 
 * **arguments** : optionnals arguments specified or passed to **START**.
 
-By default **Dos9** looks for available installed scripts to handle file 
+By default **Picobat** looks for available installed scripts to handle file 
 association when it is compiled. And hardcodes one of the value of the 
 detected script.
 
-However, this value is overriden by the default [Dos9\_Auto.bat](dos9auto) 
+However, this value is overriden by the default [Picobat\_Auto.bat](dos9auto) 
 which sets its value to **dos9\_start**.
 
 If the variable is left undefined or erased, then all subsequent calls to 

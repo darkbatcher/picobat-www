@@ -1,21 +1,21 @@
 ---
-title: Get Dos9
-description: Get Dos9 working on your computer
+title: Get Picobat
+description: Get Picobat working on your computer
 layout: default 
 ---
 
-# Getting Dos9 #
+# Getting Picobat #
 
 Do you want to give dos9 a try ? This page is definitely for you.
-Please follow the instructions to get Dos9 working on your favourite operating system
+Please follow the instructions to get Picobat working on your favourite operating system
 (Windows, Linux, or even BSD ...).
 
 ## Windows  ##
 
 ### The lazy men's method ###
 
-The easiest and fastest way to get *Dos9* to run on your computer is definitely
-downloading one of the bundles we kindly compiled for you. Dos9 comes with a
+The easiest and fastest way to get *Picobat* to run on your computer is definitely
+downloading one of the bundles we kindly compiled for you. Picobat comes with a
 variety of different flavours that you are likely to enjoy:
 
 #### version 218.3 bundles ####
@@ -31,14 +31,14 @@ variety of different flavours that you are likely to enjoy:
   [3]: https://sourceforge.net/projects/dos9/files/dos9-218.3/x86-dos9-u8.exe/download
   [4]: https://sourceforge.net/projects/dos9/files/dos9-218.3/x86_64-dos9-u8.exe/download
 
-Once the setup is downloaded, just run it to get a fresh *Dos9* install on your computer,
+Once the setup is downloaded, just run it to get a fresh *Picobat* install on your computer,
 navigate through the setup and have some fun within seconds (no, really, this is quite
 straightforward).
 
 ### The tough guys' method ##
 
-If you are a *really tough* guy, and you want to customise your *Dos9* a little more,
-you may want to build you own version of *Dos9*. However,
+If you are a *really tough* guy, and you want to customise your *Picobat* a little more,
+you may want to build you own version of *Picobat*. However,
 this is not quite as straightforward as the previous option, especially on Windows.
 
 Before even trying to do so, you must have a couple of programs installed on your
@@ -65,20 +65,20 @@ configuration target:
 $ make config
 ````````````````````````
 
-This script prepares the make suite before compiling Dos9, beware this command 
+This script prepares the make suite before compiling Picobat, beware this command 
 may take a little while to complete as Windows is quite slow. Note that if
 some errors occurs, you may need to run it twice, sadly.
 
 Now the build as been successfully prepared, you have basically two options:
 
 - Either specifying some options to toggle in or out some specific features
-  of Dos9. As of 218.2, Dos9 provides 4 options that can be switched on and
+  of Picobat. As of 218.2, Picobat provides 4 options that can be switched on and
   of using either `use-option` or `no-option` :
 
 	- `libcu8` : Enables native support of utf-8 (disabled by default).
 	- `nls` : Enables internationalization (enabled by default).
 	- `console` : Enables visual console features (enabled by default).
-	- `cmdlycorrect` : Disable Dos9 extensions conflicting with cmd's
+	- `cmdlycorrect` : Disable Picobat extensions conflicting with cmd's
 		batch dialect
     - `modules` : Enables modules support (enabled by default).
   
@@ -100,9 +100,9 @@ in the `bin/` in order for the executable to run easily.
 This means that sadly, no installation target is provided for windows
 and you must use binaries directly from the `bin/` directory.  
 
-Note that these steps are only valid for newer versions of Dos9.
+Note that these steps are only valid for newer versions of Picobat.
 If you build an older version (which is somehow highly unlikely),
-please refer to the `BUILD.readme` of the Dos9 package.
+please refer to the `BUILD.readme` of the Picobat package.
 
 ## GNU/Linux and *Nix ##
 
@@ -117,9 +117,9 @@ Of course we do not provide any package for less widespread operating systems
 such as BSD-based operating systems or android. If you want to have theses
 working on your machine, you *definitely* need to compile it.
  
-### Building Dos9 ###
+### Building Picobat ###
 
-Dos9 is quite easy to compile under *Nix as required tools are usually available
+Picobat is quite easy to compile under *Nix as required tools are usually available
 easily. Once you have them installed, build it as described above in the windows
 section.
 

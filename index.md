@@ -1,14 +1,14 @@
 ---
 title: Project Overview
-description: Dos9, a fast, simple cross-platform batch interpreter
+description: Picobat, a fast, simple cross-platform batch interpreter
 layout: default 
 ---
 
-# The Dos9 project #
+# The Picobat project #
 
 ## Overview ##
 
-Dos9 is a free (as in freedom) and cross platform batch interpreter
+Picobat is a free (as in freedom) and cross platform batch interpreter
 intended as an alternative to CMD, the native windows interpretor for
 batch files.
 
@@ -17,21 +17,21 @@ It is designed around 3 key-ideas :
 * **Portability**, with the ability of being run on a variety of platforms
 from Windows to almost any Unix-based operating system (Linux, Bsd...)
 and architecture from pc to arm-based. With a few tricks, you can even
-get Dos9 to run on an android smartphone.
+get Picobat to run on an android smartphone.
 
-* **Speed**, Dos9 reaches incredibly high execution speed on Unix-based systems.
+* **Speed**, Picobat reaches incredibly high execution speed on Unix-based systems.
 It also provides an internal multi-threading system that allows it to overtake
 CMD on execution speed on windows.
 
-* **Lightness** and **flexibility**, Dos9 is designed to be lightweight and be used
+* **Lightness** and **flexibility**, Picobat is designed to be lightweight and be used
 in many different ways, from the regular set-up to the embedded installation on an
 USB stick for example. 
 
 ## Features ##
 
-After almost 10 years of intermittent development, Dos9 now features
+After almost 10 years of intermittent development, Picobat now features
 a really wide range of functionalities from basic general batch programming to
-Dos9 specific extensions. Among them :
+Picobat specific extensions. Among them :
 
 * Full support of **environment variables** with extensions to support floating
 point arithmetic.
@@ -51,5 +51,5 @@ information about batch programing.
 * A lot of commands and extensions associated with them that make
 batch programming an even more exciting programing language !
 
-Sounds Great, isn't it ? Why not give Dos9 a try ? Installation details
+Sounds Great, isn't it ? Why not give Picobat a try ? Installation details
 and instruction can be found [here](/download).

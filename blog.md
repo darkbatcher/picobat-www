@@ -1,5 +1,5 @@
 ---
 title: Development blog
-description: Dos9 
+description: Picobat 
 layout: home 
 ---

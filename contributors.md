@@ -5,21 +5,21 @@ layout: default
 ---
 # Contributors #
 
-Do you want to contact Dos9 contributors ? Or simply help the team ?
+Do you want to contact Picobat contributors ? Or simply help the team ?
 this page is for you !
 
 ## Authors and contributors ##
 
-The Dos9 project has been started quite a while ago (nearly 10 years
+The Picobat project has been started quite a while ago (nearly 10 years
 from now) while I was studying at high school, mostly as a hobby project,
 I was not really intending to do something serious. As years passed by,
 this interpreter got bigger and bigger, leading to the almost
 cmd-compatible interpreter that it is now.
 
-- Romain Garbi : The initial author and core developer of Dos9.
+- Romain Garbi : The initial author and core developer of Picobat.
 	He started the project and is still leading the
 	development.
-- Teddy Astie : Developed some code and debugged many parts of Dos9.
+- Teddy Astie : Developed some code and debugged many parts of Picobat.
 	He is the second developer of the project.
 - Xenoxis : Lots of helps submitting bugs. Designed manual pages styles.
 
