@@ -1,12 +1,7 @@
----
-title: Doc 
-layout: default 
----
-
 # Quick starting guide #
 
-**Picobat** is a open source command prompt meant to implement a superset of 
-**cmd.exe** script language \(known as **batch** by most devellopers\). It is 
+**Picobat** is an open source command prompt meant to implement a superset of 
+**cmd.exe** script language \(known as **batch** by most developers\). It is 
 designed to be as simple to use as possible, reliable, portable and 
 lightweight.
 
@@ -14,19 +9,26 @@ lightweight.
 
 Firstly, if you have never used cmd or an equivalent interpreter before, you 
 should definitely consider reading a tutorial about batch programming. On the 
-other hand if you are already familiar with batch, just open **Picobat** and 
-start typing some commands ! Picobat batch dialect is almost compatible with cmd.
+other hand if you are already familiar with batch, just open **pbat** and 
+start typing some commands ! Picobat batch dialect is almost compatible with 
+cmd.
 
-If you use Picobat on windows, the only file extension provided is **.dos9** by 
-default \(to avoid trashing your OS with potential conflicts\). However, 
+If you use Picobat on windows, the only file extension provided is **.pbat** 
+by default \(to avoid trashing your OS with potential conflicts\). However, 
 calling a **.bat** or **.cmd** script from inside Picobat, leads them to get 
 executed by Picobat.
 
+## Downloading Picobat ##
+
+The latest release of picobat is available 
+[here](https://github.com/darkbatcher/picobat/releases). Extract the archive 
+and start playing with **pbat** in the extracted folder.
+
 ## Picobat changes ##
 
-Once installed, it is quite straightforward to play with Picobat, especially if 
-you are quite familiar with cmd. However, there is a couple of thing out there 
-you have to know about.
+Once installed, it is quite straightforward to play with Picobat, especially 
+if you are quite familiar with cmd. However, there is a couple of thing out 
+there you have to know about.
 
 On one hand, there is a couple of differences between Picobat and cmd :
 
@@ -53,8 +55,8 @@ On one hand, there is a couple of differences between Picobat and cmd :
 * Some undocumented but useful variables from cmd are still lacking \(Though 
   **%=EXITCODEASCII%** is now supported\).
 
-* Picobat has no inconsistencies with escaped characters with **^**, it requires 
-  only one escape.
+* Picobat has no inconsistencies with escaped characters with **^**, it 
+  requires only one escape.
 
 * [DIR /b](doc/dir) does not automatically return absolute paths.
 
@@ -67,11 +69,11 @@ On the other hand, Picobat also provides you with with a bunch of extensions:
 * A full set of extensions to support floating points arithmetics through 
   [SET](doc/set) and [IF](doc/if):
 
-  * A new [SET /a:f](doc/setaf) command to perform operations on floating 
-    point numbers.
+  * New [SET /a](doc/seta) commands extensions to perform operations on 
+    floating point numbers.
 
-  * New comparisons like **FEQ** or **FNEQ** for the **IF** command to compare 
-    floating-point numbers.
+  * Extensions for **IF** command to automatically detect floating-point and 
+    compare floating-point numbers.
 
 * The ground-breaking possibility to specify logical expressions using 
   **AND** and **OR** and the new [IF](doc/if) extensions, like in the 
@@ -85,10 +87,10 @@ On the other hand, Picobat also provides you with with a bunch of extensions:
   of possibilities from graphical user interfaces to networking extensions. 
   Currently, the only module provided is the [BATBOX](doc/batbox) module.
 
-* To speed up parsing, Picobat loads files entirely in memory at startup. If the 
-  file gets modified during its execution, it is reloaded and Picobat restarts on 
-  the next line \(counting lines from the begining\). This can also be 
-  disabled using:
+* To speed up parsing, Picobat loads files entirely in memory at startup. If 
+  the file gets modified during its execution, it is reloaded and Picobat 
+  restarts on the next line \(counting lines from the begining\). This can 
+  also be disabled using:
 
         SETLOCAL EnableCmdlyCorrect
 
@@ -141,7 +143,7 @@ Picobat supports only two languages yet \(**french** and **english**\). If you
 cannot see the messages translated, please check the value of the **LANG** and 
 **LANGUAGE** environment variables and set them appropriately.
 
-If you have some questions about or need some help with Picobat, please feel free 
-to join **Picobat**'s official discord at: 
+If you have some questions about or need some help with Picobat, please feel 
+free to join **Picobat**'s official discord at: 
 [https://discord.gg/w4KtdCv](https://discord.gg/w4KtdCv)
 

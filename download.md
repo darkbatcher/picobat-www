@@ -15,25 +15,14 @@ Please follow the instructions to get Picobat working on your favourite operatin
 ### The lazy men's method ###
 
 The easiest and fastest way to get *Picobat* to run on your computer is definitely
-downloading one of the bundles we kindly compiled for you. Picobat comes with a
-variety of different flavours that you are likely to enjoy:
+downloading the [latest developement builds](https://github.com/darkbatcher/picobat/releases/tag/latest).
+This builds is always on the bleeding edge, so you always get the newest features.
 
-#### version 218.3 bundles ####
+Download the `.zip` file and extract it wherever you want. Inside the extracted folder,
+you can start Picobat by launching `pbat.exe`. There is no installation script yet.
 
-| Flavour | Description                                                               | x86           | x86_64        |
-| ------- | ------------------------------------------------------------------------- | ------------- | ------------- |
-| utf-8   | A slightly heavier version providing support for utf-8 in windows console | [download][3] | [download][4] |
-| Vanilla | A simple, fast, version supporting only windows code pages				  | [download][1] | [download][2] |
-
-
-  [1]: https://sourceforge.net/projects/dos9/files/dos9-218.3/x86-dos9-vanilla.exe/download
-  [2]: https://sourceforge.net/projects/dos9/files/dos9-218.3/x86_64-dos9-vanilla.exe/download
-  [3]: https://sourceforge.net/projects/dos9/files/dos9-218.3/x86-dos9-u8.exe/download
-  [4]: https://sourceforge.net/projects/dos9/files/dos9-218.3/x86_64-dos9-u8.exe/download
-
-Once the setup is downloaded, just run it to get a fresh *Picobat* install on your computer,
-navigate through the setup and have some fun within seconds (no, really, this is quite
-straightforward).
+The developements builds are always standalone so that you can put them wherever you want,
+such as on an usb stick. 
 
 ### The tough guys' method ##
 
@@ -42,11 +31,11 @@ you may want to build you own version of *Picobat*. However,
 this is not quite as straightforward as the previous option, especially on Windows.
 
 Before even trying to do so, you must have a couple of programs installed on your
-computer (at least MinGW, a unix-like shell with standard tools, git, gmake, libintl,
-and libiconv). Once you have done so you can fetch the latest stable release using:
+computer (at least MinGW, a unix-like shell with standard tools, git and gmake). 
+Once you have done so you can fetch the latest stable release using:
 
 ````````````````````````
-$ git clone https://git.code.sf.net/p/dos9/code dos9-code
+$ git clone https://github.com/darkbatcher/picobat.git
 $ cd dos9-code
 ````````````````````````
 
@@ -89,16 +78,12 @@ $ make use-option
 - Or skip this part and just start compiling using :
   
 ``````````````````````````
-$ make all bin
+$ LDFLAGS='-static' make all bin
 ````````````````````````
 
 If everything went OK, your freshly compiled binaries should be in
-`bin/`. However, unless you have added MinGW libraries directories
-to your `%PATH%` you are required to put the required libraries
-in the `bin/` in order for the executable to run easily.
-
-This means that sadly, no installation target is provided for windows
-and you must use binaries directly from the `bin/` directory.  
+`bin/`. From there, you can use picobat very easilly, as stated in
+*The lazy man's method*.
 
 Note that these steps are only valid for newer versions of Picobat.
 If you build an older version (which is somehow highly unlikely),
