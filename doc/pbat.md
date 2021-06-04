@@ -23,16 +23,14 @@ Run a command file or wait for an user input.
 
 * **/A\[:\]attr** : Some attributes to set **pBat** behaviour:
 
-    **v** : Enables [delayed expansion](spec/var).
+  * **v** : Enables [delayed expansion](spec/var).
 
-    **c** : Enables **CMDLYCORRECT** option from the [SETLOCAL](setlocal) 
+  * **c** : Enables **CMDLYCORRECT** option from the [SETLOCAL](setlocal) 
     command. This forces **cmd.exe** compatible mode.
 
-    **f** : Enables [floating numbers](spec/exp).
+  * **e** : Disable current directory echoing.
 
-    **e** : Disable current directory echoing.
-
-    **q** : Run pBat quietly \(ie. does not show the intro screen at 
+  * **q** : Run pBat quietly \(ie. does not show the intro screen at 
     startup\).
 
 * **/i input** : redirects standard input to file descriptor **input**.

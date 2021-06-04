@@ -144,11 +144,11 @@ On the other hand, Picobat also provides you with with a bunch of extensions:
 
 ## Troubleshooting ##
 
-Picobat supports only two languages yet \(**french** and **english**\). If you 
-cannot see the messages translated, please check the value of the **LANG** and 
-**LANGUAGE** environment variables and set them appropriately.
-
 If you have some questions about or need some help with Picobat, please feel 
 free to join **Picobat**'s official discord at: 
 [https://discord.gg/w4KtdCv](https://discord.gg/w4KtdCv)
+
+If you want to dig deepeer, do not hesitate to browse the documentation. 
+[Command index](doc/commands) and [Specification index](doc/spec/index) are 
+good places to start. Have fun !
 

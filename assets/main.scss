@@ -133,6 +133,7 @@ a, a:visited {
     color: #202020;
     text-decoration: none;
 	font-weight: bold;
+	border-bottom: 1px solid currentColor;
     -webkit-transition: all 0.2s linear;
     -moz-transition: all 0.2s linear;
     -ms-transition: all 0.2s linear;
@@ -264,6 +265,7 @@ dd {
 }
 #header a {
     color: #e0e0e0;
+	border: none;
 }
 #header h1 a,
 #header a:hover,

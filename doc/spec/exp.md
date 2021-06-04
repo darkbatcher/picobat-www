@@ -63,6 +63,7 @@ options can be used :
 * Truncation of the content of the variable using the option
 
         %variable:~nb1,nb2%
+        %variable:~nb1%
 
   * **nb1** : the position of character of **variable** that should be the 
     beginning of the part to part that should be used for expansion. The first 
@@ -71,7 +72,8 @@ options can be used :
 
   * **nb2** : the number of character of **variable** after **nb1** that 
     should be used for expansion. If **nb2** is a negative number, then the 
-    position are counted from the end of the string
+    position are counted from the end of the string. If **nb2** is not 
+    specified, then the end of the string is not truncated.
 
   Note that if the version of pBat that is running supports utf-8, then the 
   variable truncation happens only counting entire characters. If not, this is 
@@ -98,27 +100,27 @@ options can be used :
 
   As example:
 
-        SET foo=Ceci est un test
-        ECHO %foo:est=pingouin%
+        SET foo=This a test
+        ECHO %foo:test=pinguin%
 
   will print :
 
-        Ceci pingouin un tpingouin
+        This is a pinguin
 
 * Replacing a **variable** by a default string if **variable** is undefined :
 
-        nom_variable:string
+        variable:string
 
   * **string** : Defaut string.
 
   For example :
 
         SET var=
-        ECHO %var:rien%
+        ECHO %var:default%
 
   will print : 
 
-        rien
+        default
 
 ## Delayed expansion ##
 

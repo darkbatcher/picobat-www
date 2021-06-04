@@ -3,13 +3,17 @@ layout: default
 ---
 # pBat license #
 
-[pBat](pbat) is a free software distributed under the **GNU GPLv3** terms. 
+[Picobat](pbat) is a free software distributed under the **GNU GPLv3** terms. 
 This license give you right to run, modify, distribute either modified or 
 verbatim copies of the program, provided that these ones will be distributed 
 under copyleft-compatible license.
 
-To read the whole agreement, see the **LICENSE.txt** file in your 
-[pBat](pbat) directory.
+To read the whole agreement, see the **COPYING** file in your [pBat](pbat) 
+directory.
+
+Picobat also include code from **libmatheval** \(licensed under GPLv3\) and 
+**darkbox** \(licensed under MIT license\). To read the whole agreements, 
+please see **COPYING.darkbox** and **COPYING.libmatheval**
 
 ## License notice ##
 
@@ -32,5 +36,5 @@ Street, Fifth Floor, Boston, MA 02110-1301 USA
 
 ## See also ##
 
-[Index](index) 
+[Index](commands) 
 
