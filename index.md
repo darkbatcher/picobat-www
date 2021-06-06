@@ -4,6 +4,8 @@ description: Picobat, a fast, simple cross-platform batch interpreter
 layout: default 
 ---
 
+      **Dos9** is now "***Picobat***"
+
 # The Picobat project #
 
 ## Overview ##
