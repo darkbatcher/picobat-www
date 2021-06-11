@@ -6,7 +6,7 @@ layout: default
 
 # Getting Picobat #
 
-Do you want to give dos9 a try ? This page is definitely for you.
+Do you want to give Picobat a try ? This page is definitely for you.
 Please follow the instructions to get Picobat working on your favourite operating system
 (Windows, Linux, or even BSD ...).
 
