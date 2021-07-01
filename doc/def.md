@@ -1,0 +1,122 @@
+---
+layout: default
+---
+# DEF command
+
+The **DEF** command defines or lists procedures that associate a group of 
+commands to a single command name. This command can be used to$ provide a 
+logic close to macros provided by the **Doskey** command.
+
+## Synopsis
+
+    DEF [/f] [/l] [name[=command-block]]
+
+Defines an procedure that is internal to [Picobat](pBat), or lists already 
+defined procedures.
+
+* **name** : Name of the procedure to be created. This is the name that will 
+  be used to invoke the procedure as if it was a command.
+
+* **command** : The commands to be executed whenever **name** command is 
+  invoked. The nine first parameters can be accessed individually using 
+  **$1** through **$9** symbols. An extra symbol **$\*** holds all the 
+  parameters given to the command. Note that these symbols are expanded before 
+  any delayed expansion is done on the command line. 
+
+* **/f** : Creates an alias even if **name** corresponds to an already defined 
+  alias or internal command.
+
+* **/l** : Lists all currently defined procedures matching **name**. 
+
+**DEF** allows redefining an internal command. This functionnality is 
+interesting if you have to hook some internal commands.
+
+**DEF** created procedures can call themselves. If **DEF** is used to create 
+such procedure, do not forget that it can lead to infinite loop when used 
+\(This cannot be checked as the halting problem is undecidable\).
+
+## Defining Aliases
+
+The **DEF** command can be used to make very simple or complex procedures. The 
+most simple procedure is probably making a alias. An alias is just a shortcut 
+command used to call another command.
+
+A typical example of an alias is given by the only procedure defined by 
+**pBat** by default, in [pBat\_Auto.bat](pbatauto). It defines [HELP](help) as 
+an alias of [HLP](hlp) using the following syntax:
+
+    DEF /f help=hlp.bat $*
+
+Every time the command **help** is invoked with whatever parameters, then the 
+command [HLP](hlp) is executed with the same parameters. Note the use of 
+**/f** to force redifining [HELP](help) command.
+
+## Making complex procedure
+
+The **DEF** command also allows for more complex procedures. To do so the 
+multiple commands used must be enclosed in parenthesis \(forming a command 
+block\).
+
+Both [IF](if) and [FOR](for) commands can be used in aliases so it is possible 
+to run loops inside aliases, for example, the following macro can be used to 
+compute the length of a string:
+
+As explained above, parameters can be retrieved individually using the **$1** 
+to **$9** symbols, and all of them can be using **$\***. As such it is 
+possible to make some Pretty elaborate procedures can then be made by 
+combining commands. For example, the following procedure computes the length 
+in characters of a variable:
+
+    :: strlen str count
+    :: Counts characters in !str! and stores the result in !count!
+    def strlen=(
+     set _str=!$1!#"
+     for %%P in (4096 2048 1024 512 256 128 64 32 16 8 4 2 1) do (
+      if "!_str:~%%P,1!" NEQ "" (
+       set /a $2+=%%P
+       set "_str=!_str:~%%P!"
+      )
+        )
+    )
+
+Once declared, the procedure can then be called as follows to print the result 
+of the operation:
+
+    set my_string=my custom string
+    strlen my_string my_count
+    echo string "%my_string%" length is %my_count%
+
+The only type of expansion that can be used inside procedures is [delayed 
+expansion](spec/exp).
+
+The preceeding procedures also takes advantage of local procedure variables 
+that have a name prefixed by **\_**. Changes to these prefixed variable will 
+be discarded at the end of the procedure, so their values in the global scope 
+\(ie. outside of any procedure\) or any parent procedure scopes will not be 
+affected by changes, thus avoiding conflicts if the procedures are wisely 
+programmed.
+
+## Procedure local variables
+
+As stated above, variable names prefixed by **\_** are procedure local 
+variables that have a restricted scope \(ie. Changes to them will not 
+necesseraly affect the entire script\).
+
+When a procedure is started, then all the procedure local variables are 
+duplicated, but the procedure inherits values it had in the previous context. 
+When the procedure exits, the changes made to the procedure local variable are 
+discarded, unless they are marked inherit using **set /x** \(unsupported 
+yet\). 
+
+Note that all non prefixed are globals and changes will affect any part of the 
+script.
+
+## Compatibility
+
+Does not exist in **cmd.exe**. This is the closest equivalent of 
+**Doskey.exe** though alias also works in batch scripts.
+
+## See also
+
+[Command list](commands) 
+
