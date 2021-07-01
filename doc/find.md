@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# FIND command #
+# FIND command
 
 Search for a string or an expression in one or several files.
 
-## Synopsis ##
+## Synopsis
 
     FIND [/c] [/n] [/i] [/v] [/e] string [files ...]
 
@@ -51,15 +51,15 @@ character **^** before the quotes to escape.
 
 Although **Windows**' **FIND** is an external command, **pBat**'s **FIND** is 
 an internal command. Under **WINDOWS** you can use the native command from 
-**Windows** using the [ALIAS](alias) command.
+**Windows** using the [DEF](def) command to create an alias for **find.exe**.
 
-## Compatibility ##
+## Compatibility
 
 Compatible with **cmd.exe**.
 
 Available since version **2014.0.9b**.
 
-## See also ##
+## See also
 
 [Command list](commands), [TYPE command](type), [MORE command](more)
 

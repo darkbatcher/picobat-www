@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# %PBAT_START_SCRIPT% environment variable #
+# %PBAT_START_SCRIPT% environment variable
 
 This page is discussing a topic affecting only **UNIX**-based OSes. The 
 **%PBAT\_START\_SCRIPT%** variable specify a script to handle operating system 
 file associations.
 
-## Synopsis ##
+## Synopsis
 
     %PBAT_START_SCRIPT%
 
@@ -34,13 +34,13 @@ which sets its value to **pbat\_start**.
 If the variable is left undefined or erased, then all subsequent calls to 
 non-executable file formats will fail. 
 
-## Compatibility ##
+## Compatibility
 
 Not compatible with **cmd.exe**, the initialization mechanisms differ.
 
 Available since **0.7**.
 
-## See Also ##
+## See Also
 
 [Environment variables](spec/var), [Specifications Index](spec/index) 
 

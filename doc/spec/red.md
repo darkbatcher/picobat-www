@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# Redirections #
+# Redirections
 
 Redirections allow standard input and outputs to me redirected by the command 
 interpretor.
 
-## Interpreter's input and outputs ##
+## Interpreter's input and outputs
 
 Traditionally, every console program is given three files that a referred to 
 as standard output and inputs.
@@ -31,7 +31,7 @@ could lead to absurd results since knowing which descriptor refers to which
 file. Moreover, this behavior can lead to strange side effects. Thus, this 
 feature is not supported by [pBat](../pbat).
 
-## Redirecting input and outputs ##
+## Redirecting input and outputs
 
 [pBat](../pbat) uses **<** and **>** characters to set redirections. **>** 
 character is used to redirect **stdout** and **stderr**, whereas the **<** is 
@@ -92,13 +92,13 @@ provided with a bunch of different syntaxes, which are the following.
   Note that pBat allow the **2>&1** to be placed before the actual 
   redirection, even though this would raise an error using **cmd.exe**
 
-## Compatibility ##
+## Compatibility
 
 Partially compatible with **cmd.exe**.
 
 Available since **0.48**.
 
-## See Also ##
+## See Also
 
 [Command line](cmdline), [Conditionnal operators](condop)
 

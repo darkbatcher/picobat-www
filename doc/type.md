@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# TYPE command #
+# TYPE command
 
 Display a text file.
 
-## Synopsis ##
+## Synopsis
 
     TYPE [file ...]
 
@@ -35,13 +35,13 @@ On Unix-based platforms, it is not possible to display the content of
 directories even though directories are actually files as **TYPE** filters 
 them.
 
-## Compatibility ##
+## Compatibility
 
 Available since revision **0.4**.
 
 Fully compatible with **cmd.exe**.
 
-## See also ##
+## See also
 
 [MORE command](more), [Command list](commands) 
 

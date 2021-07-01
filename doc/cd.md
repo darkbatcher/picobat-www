@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# CD, CHDIR commands and %CD% Variable #
+# CD, CHDIR commands and %CD% Variable
 
 The **CD** command changes or shows the current directory of [pBat](pbat) 
 command prompt.
@@ -9,7 +9,7 @@ command prompt.
 The **%CD%** variable expands to the current directory of [pBat](pbat) command 
 prompt.
 
-## Synopsis ##
+## Synopsis
 
     CD  [[/d] path]
     CHDIR [[/d] path]
@@ -44,7 +44,7 @@ The **CD** command behaviour is the following :
   to **path**. This is the only syntax of **CD** that is guaranteed to be 
   portable across platforms.
 
-## Variables ##
+## Variables
 
     %CD%
 
@@ -60,7 +60,7 @@ undocumented variables are also defined by **cmd.exe**, even though they are
 undocumented. However, this family of variable is not defined on 
 **UNIX**-like OSes.
 
-## Bogus ##
+## Bogus
 
 On **Windows**, **CD** may actually change current directory to a path that 
 does not exist if **path** is made of dots. Indeed, internal windows routines 
@@ -69,13 +69,13 @@ change directory. For example:
 
     CD ...
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe**.
 
 Available since version **0.4**
 
-## See also ##
+## See also
 
 [Variable](spec/var), [Specifications Index](spec/index), [Command 
 list](commands) 

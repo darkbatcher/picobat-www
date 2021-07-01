@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# TEA language specification #
+# TEA language specification
 
 The **TEA language** is the language used for formatting [TEA](tea) source 
 files. It is a really simple markup language intended to be used with 
 [pBat](pbat).
 
-## Block delimiters ##
+## Block delimiters
 
     {{...}}
     
@@ -30,7 +30,7 @@ types of block delimiters.
 
 * **...** : Denotes a normal paragraph.
 
-## Inline delimiters ##
+## Inline delimiters
 
     {foo}
     {target|text}
@@ -46,7 +46,7 @@ used in a **code block** though. There is two of them:
   add an appropriate extension unless the link begins with **http://**, 
   **https://** or **mail://**.
 
-## Comments ##
+## Comments
 
 Comments can be introduced using the **\#** character
 
@@ -55,11 +55,11 @@ Comments can be introduced using the **\#** character
 It is important that the dash **\#** is at the first column of the source file 
 for [TEA](tea) to interpret it as a comment.
 
-## Escaping ##
+## Escaping
 
 Any character can be escaped using **\**.
 
-## See Also ##
+## See Also
 
 [TEA Command](tea) 
 

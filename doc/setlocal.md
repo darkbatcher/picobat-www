@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# SETLOCAL command #
+# SETLOCAL command
 
 The **SETLOCAL** command allows setting local environment and changing 
 [pBat](pbat) interpretors settings at runtime.
@@ -9,7 +9,7 @@ The **SETLOCAL** command allows setting local environment and changing
 To revert modifications to environment after a **SETLOCAL** command, use the 
 [ENDLOCAL](endlocal) command.
 
-## Synopsis ##
+## Synopsis
 
     SETLOCAL [ENABLEDELAYEDEXPANSION | DISABLEDELAYEDEXPANSION] [CMDLYCORRECT | CMDLYINCORRECT]
 
@@ -27,13 +27,13 @@ When calling **SETLOCAL**, the [%ERRORLEVEL%](errorlevel) variable is left
 unmodified, except if an error occurs, then **%ERRORLEVEL%** will be set to 
 **-1**.
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe** since **218.2**. **ENABLEEXTENSION** and 
 **DISABLEEXTENSIONS** are ignored by [pBat](pbat), every extensions is enabled 
 at startup.
 
-## See also ##
+## See also
 
 [ENDLOCAL command](endlocal), [SET Command](set), [Commands list](commands) 
 

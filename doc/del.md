@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# DEL and ERASE commands #
+# DEL and ERASE commands
 
 Delete one or more files.
 
-## Synopsis ##
+## Synopsis
 
     DEL [/P] [/F] [/S] [/Q] [/A[:]attributes] name ...
     ERASE [/P] [/F] [/S] [/Q] [/A[:]attributes] name ...
@@ -28,13 +28,13 @@ Delete one or more files.
   expressions](spec/regexp). If any of the paths specified refer to a 
   directory, every file inside that directory is deleted.
 
-## Compatibility ##
+## Compatibility
 
 Available since revision **0.4**.
 
 Fully compatible with **cmd.exe**.
 
-## See also ##
+## See also
 
 [RD and RMDIR commands](rd), [MD and MKDIR commands](md), [MOVE 
 command](move) 

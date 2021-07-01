@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# VER Command #
+# VER Command
 
 Prints operating system's version informations.
 
-## Synopsis ##
+## Synopsis
 
     VER
 
@@ -17,15 +17,15 @@ If you need less specific information about the operating system on which
 [pBat](pbat) is being executed, consider using the [%PBAT\_OS\_TYPE% or 
 %PBAT\_OS%](pbatvar) instead.
 
-## Thanks ##
+## Thanks
 
 The code for this command has been contributed by Xenoxis.
 
-## Compatibility ##
+## Compatibility
 
 Compatible with **cmd.exe**. Available since version **218.3**.
 
-## See Also ##
+## See Also
 
 [pBat default variables](pbatvar)
 

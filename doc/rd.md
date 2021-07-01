@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# RD and RMDIR commands #
+# RD and RMDIR commands
 
 Removes a directory.
 
-## Synopsis ##
+## Synopsis
 
     RMDIR [/S] [/Q] directory
     RD [/S] [/Q] directory
@@ -19,18 +19,18 @@ Removes a directory.
 * **/S** : Deletes files and subfolders contained by **directory**. Use this 
   switch to delete an entire tree.
 
-## Notes ##
+## Notes
 
 By default, **RD** and **RMDIR** do not delete non empty folder. To force 
 folder deletion, use the **/S** switch.
 
-## Compatibility ##
+## Compatibility
 
 Available since **0.4** revision.
 
 Fully compatible with **cmd.exe**.
 
-## See also ##
+## See also
 
 [MD and MKDIR commands](md), [DEL and ERASE commands](del), [MOVE 
 command](move) 

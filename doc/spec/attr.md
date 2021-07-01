@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Files attributes #
+# Files attributes
 
 Every file has specific files attributes defined by operating systems. 
 [pBat](../pbat) can handle these attributes to change the behaviour of command 
@@ -10,7 +10,7 @@ scripts.
 \[Warning:} All these attributes are not portable on Unix-like system. Anyway 
 if you choose to use them, they will just be ignored by the interpreter.
 
-## Synopsis ##
+## Synopsis
 
 Usualy, [Ds9](../pbat) provides a standard switch to specify attributes 
 filters. The syntax is:
@@ -23,7 +23,7 @@ reasons.
 * **attr** : A sequence of letters \(optionnally preceded by hyphen **-** to 
   discard an attribute\).
 
-## Attributes ##
+## Attributes
 
 The following letters denote the following :
 
@@ -48,19 +48,19 @@ The following letters denote the following :
 You can select file not having an attributes by prefixing the letter by an 
 hyphen **-**.
 
-## Example ##
+## Example
 
     /A:R-I
 
 Select read-only files that are not empty.
 
-## Compatibility ##
+## Compatibility
 
 Available since **0.4.0.2**.
 
 Compatible since **cmd.exe**.
 
-## See also ##
+## See also
 
 [Specification index](index), [DIR Command](../dir), [DEL Command](../del) 
 

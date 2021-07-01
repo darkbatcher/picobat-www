@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# SET (/A) Command (floating point) #
+# SET (/A) Command (floating point)
 
 The **SET /A** command enables the value of an arithmetical expression to be 
 stored into a variable.
@@ -10,7 +10,7 @@ This manual pages is only about the use of the **/A** of the **SET** command.
 To learn more about the general use of the command, please see the [SET manual 
 page](set).
 
-## Synopsis ##
+## Synopsis
 
     SET [/a] variable=expression
 
@@ -30,7 +30,7 @@ in which case, **SET /a** stores the result of **variable**
 The given **expression** must consist of a sequence of **operands** separated 
 by **operators**.
 
-## Operands ##
+## Operands
 
 **Operands** represent the numbers to which a sequence of operations will be 
 applies. Operands must be of one the following types:
@@ -75,7 +75,7 @@ applies. Operands must be of one the following types:
   is considered to be a variable name which will be expanded to the variable 
   value when computing the expression result.
 
-## Operators ##
+## Operators
 
 The **SET /a** provides a wide variety of operators that can be used with both 
 integers and floating point numbers.
@@ -154,7 +154,7 @@ Operators have the following precedence \(from greatest to lowest\):
 
 To avoid precedence issues, use the parenthesis **\(** and **\)**.
 
-## Functions ##
+## Functions
 
 Available functions are:
 
@@ -232,7 +232,7 @@ Available functions are:
 
 * **nandelta** : Dirac's function returning NAN instead of infinity.
 
-## Constants ##
+## Constants
 
 Finally, the following constants are defined
 
@@ -262,7 +262,7 @@ Finally, the following constants are defined
 
 * **sqrt1\_2** : sqrt\(1/2\), or 1/sqrt\(2\) or sqrt\(2\)/2.
 
-## Toogling floating-point expressions ##
+## Toogling floating-point expressions
 
 The use of floating-point arithmetics is triggered by the use of one of the 
 following features :
@@ -282,7 +282,7 @@ floats \(for example adding **0.0**\) as in the following sample:
     :: Trigger the use of floating point arithmetics
     SET /a var=a/b+0.0
 
-## Precisness ##
+## Precisness
 
 Integers wich are usually bound between **-2 147 483 648** and **+2 147 483 
 647**.
@@ -291,7 +291,7 @@ Floating-point numbers offer a much greater range, between
 **2,2250738585072014e-308** à **1,7976931348623157e+308**. However, this gain 
 on range causes a loss of precision because of approached computing.
 
-## Bugs ##
+## Bugs
 
 It is possible to encounter preciseness bug as floating-point number have a 
 finite precision of about 15 decimal places. As a result some expression may 
@@ -307,11 +307,11 @@ Changing slightly the expression can fix this issue :
 
     2e60-2e60+1
 
-## Notes ##
+## Notes
 
 This command uses a modified version of the **GNU libmatheval** library.
 
-## Compatibility ##
+## Compatibility
 
 Available since **0.7.1.0**, before the support of expressions was incomplete, 
 supporting neither the **%** operating system nor functions.
@@ -319,7 +319,7 @@ supporting neither the **%** operating system nor functions.
 Not compatible with **cmd.exe** that does not support floating point 
 arithmetics.
 
-## See also ##
+## See also
 
 [SET Command](set), [SET \(/a\) Command \(integers\)](setai) 
 

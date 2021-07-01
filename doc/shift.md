@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# SHIFT Command #
+# SHIFT Command
 
 The **SHIFT** command shifts batch script arguments. This command is very 
 useful to create batch scripts requiring many parameters.
 
-## Synopsis ##
+## Synopsis
 
     SHIFT [/start | /s[:]start] [/d[:]step]
 
@@ -28,14 +28,14 @@ already empty, these variables are left empty.
 
 The content of the variable **%\*** is not modified by the **SHIFT** command.
 
-## Compatibility ##
+## Compatibility
 
 Mostly compatible with **cmd.exe**. Indeed, while replacing the **%0** 
 parameter, **cmd.exe** checks that the new argument refers to a file or a 
 directory and if it is not, replace it by the current directory. This 
 behaviours is not implemented by pBat.
 
-## See Also ##
+## See Also
 
 [Commands list](commands), [pBat](pbat) 
 

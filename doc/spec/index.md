@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Specifications #
+# Specifications
 
 * [Command line](cmdline) specification.
 
@@ -23,7 +23,7 @@ layout: default
 
 * [Directories stack](dirstack) specifications.
 
-## See Also ##
+## See Also
 
 [List of Commands](../commands) 
 

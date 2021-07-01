@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# MD and MKDIR commands #
+# MD and MKDIR commands
 
 Creates a new directory.
 
-## Synopsis ##
+## Synopsis
 
     MD directory
     MKDIR directory
@@ -24,13 +24,13 @@ Creates a new folder.
         MD a/b
         MD a/b/c
 
-## Compatibility ##
+## Compatibility
 
 Available since version **0.4**.
 
 Fully compatible with **cmd.exe**.
 
-## See also ##
+## See also
 
 [RD and RMDIR command](rd), [DEL and ERASE command](del), [MOVE 
 command](move), [COPY command](copy) 

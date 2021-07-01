@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# MOVE command #
+# MOVE command
 
 MOVE one or several files to another location.
 
-## Synopsis ##
+## Synopsis
 
     MOVE [/-Y | /Y] [/R] [/A[:]attributes] source [...] destination
 
@@ -46,7 +46,7 @@ Move one or several files to another location.
 * **/A\[:\]attributes** : Copies only files that match **attributes**. For 
   more details, check [files attributes](spec/attr).
 
-## Notes ##
+## Notes
 
 If an error occurs while moving a file, the **MOVE** command continues moving 
 other file passed through **source**. Obviously, **MOVE** returns an error, 
@@ -54,14 +54,14 @@ but this behaviour can lead to mess on file, or even loss of data. For
 something that need to be bug prof, rather use a combination of [COPY](copy) 
 and [DEL](del).
 
-## Compatibility ##
+## Compatibility
 
 Available since version **0.4**
 
 Fully compatible with **cmd.exe**. The **/R** and **/A** switches are 
 [pBat](pbat) extension.
 
-## See also ##
+## See also
 
 [DEL and ERASE commands](del), [COPY command](copy) 
 

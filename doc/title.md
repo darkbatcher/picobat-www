@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-# TITLE Command #
+# TITLE Command
 
 Change console title.
 
-## Synopsis ##
+## Synopsis
 
      TITLE title
 
 Change title to **title**.
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe**
 
-## See Also ##
+## See Also
 
 [ECHO Command](echo), [CLS command](cls), [Command list](commands)
 

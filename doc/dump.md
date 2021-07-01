@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# DUMP command #
+# DUMP command
 
 The **DUMP** command allows binary files to be dumped. It allows printing 
 binary in various data types and in various numeric bases. It can be an 
 interesting tool for generating embed file generators in batch.
 
-## Synopsis ##
+## Synopsis
 
     DUMP [/H] [/T[:]type] [/B:format] [files ...]
 
@@ -50,12 +50,12 @@ By default, the printed text is configured like :
 
     DUMP file /T:C /H
 
-## License ##
+## License
 
 **DUMP** is free software distributed under the **GNU General Public 
 License**.
 
-## Authors ##
+## Authors
 
 **DUMP** has been written in 2013 by **DarkBatcher** for the **pBat 
 Project**.

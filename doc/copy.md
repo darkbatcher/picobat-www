@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-# COPY command #
+# COPY command
 
 Copy one or several files to another location.
 
-## Synopsis ##
+## Synopsis
 
     COPY [/-Y | /Y] [/R] [/A[:]attributes] source [+] [...] destination
 
@@ -50,14 +50,14 @@ Copy one or several files to another location.
 * **/A\[:\]attributes** : Copies only files that match **attributes**. For 
   more details, check [files attributes](spec/attr).
 
-## Compatibility ##
+## Compatibility
 
 Available since version **0.4**.
 
 Partially compatible with **cmd.exe**. Some **cmd.exe** are ignored because 
 they do not make sense anymore. The **/A** switch is a [pBat](pbat) extension.
 
-## See also ##
+## See also
 
 [DEL and ERASE commands](del), [MOVE command](move) 
 

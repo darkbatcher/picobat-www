@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Conventional and delayed expansion #
+# Conventional and delayed expansion
 
 Variable expansion is a [parsing](parse) step during which variables get 
 replaced in the command line.
@@ -10,7 +10,7 @@ This step in fact consist of two different step. The first, the **conventional
 expansion** and the **delayed expansion**. The first takes places as the file 
 is read by pBat. The second one takes place just before the command execution.
 
-## Conventional expansion ##
+## Conventional expansion
 
 Conventional expansion takes places at every new line read. It can not be 
 discarded.
@@ -122,7 +122,7 @@ options can be used :
 
         default
 
-## Delayed expansion ##
+## Delayed expansion
 
 Delayed expansion takes place just before line execution. This step can be 
 discarded via the [SETLOCAL](../setlocal) command using the 
@@ -183,18 +183,18 @@ It enables some very frequent batch programming issue to be solved :
         :: some code
         )
 
-## Special var expansion ##
+## Special var expansion
 
 [Special variables](xvar) just before delayed expansion. This topic is 
 discussed on the associated page.
 
-## Compatibility ##
+## Compatibility
 
 Compatible with **cmd.exe**.
 
 Available since **0.7**
 
-## See also ##
+## See also
 
 [Environment variables](var), [Special variables](xvar), [SETLOCAL 
 command](../setlocal), [Specification index](index) 

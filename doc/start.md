@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# START command #
+# START command
 
 The **START** command enables executing a command or a program inside another 
 console or in background. **START** also enables opening files with 
 appropriate programs, it is thus a very useful command.
 
-## Synopsis ##
+## Synopsis
 
     START [/d dir] [/b] [/min] [/max] [/wait] ["title"] [command [parameter ...]]
 
@@ -41,7 +41,7 @@ current operating system. If not, **command** is run as separate process.
 If **command** is an internal command and the **/b** switch is specified, then 
 the command will be ran as a thread of the current interpreter.
 
-## Compatibility ##
+## Compatibility
 
 Partially compatible with **cmd.exe**. Under UNIX-based operating systems, 
 some features are ignored: **"title"**, **/max**, **/min**. The possibility of 
@@ -56,7 +56,7 @@ recommended to get the best experience of [pBat](pbat) on UNIX-based platforms
 
 Available since **218.2**.
 
-## See Also ##
+## See Also
 
 [Call command](call), [Command list](commands) 
 

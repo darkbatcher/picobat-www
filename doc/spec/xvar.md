@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# Special variables #
+# Special variables
 
 Special variables are internal variables provided by [pBat](../pbat). Special 
 variables are local, thus they can not be inherited by external programs.
 
-## Special variable use ##
+## Special variable use
 
 Special variables can not be modified, the can only be defined by 
 [pBat](../pbat), the [CALL command](../call) or the [FOR command](../for).
@@ -37,7 +37,7 @@ using the **%+** variable. On UNIX-based operating systems, it is not possible
 to retrieve the exact syntax of the command line. Thus **%\*** is created 
 using the parameters and some added quotation if necessary.
 
-## Special variable expansion ##
+## Special variable expansion
 
 Special variables names are made of a single letter or a digit. Any ASCII 
 character except the 33 first \(ie. from 0x20\) can be used. However, for 
@@ -96,11 +96,11 @@ behaviour:
   currently run batch. That is, **%\~f0** refers to the path of the script 
   being executed, **%\~dp0** to its directory, and so on and so forth. 
 
-## Note ##
+## Note
 
 **Special variable** names and options are case sensitive.
 
-## See also ##
+## See also
 
 [Environment variables](var), [Variable expansion](exp), [Specification 
 index](index) 

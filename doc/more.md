@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# MORE command #
+# MORE command
 
 The **MORE** command displays output on a per screen basis. **MORE** can also 
 be used in the same way as **TYPE** to print a file to the terminal.
 
-## Synopsis ##
+## Synopsis
 
     MORE [/E] [/C] [/P] [/T[:]n] [/S] [/A] [/U] [+n] [files ...]
 
@@ -62,14 +62,14 @@ If [pBat](pbat) has been compiled with **--disable-console**, then the
 **more** command should always use the **/C** switch, Thus, line by line 
 scrolling should not be possible.
 
-## Compatibility ##
+## Compatibility
 
 Compatible with **cmd.exe**, excepting **/P** switch that does nothing.
 
 Available since **2014.0.9b** revision. Before **MORE** was only a 
 [TYPE](type) alias.
 
-## See also ##
+## See also
 
 [Command list](commands), [TYPE command](type), [DUMP command](dump)
 

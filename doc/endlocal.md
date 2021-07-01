@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# ENDLOCAL command #
+# ENDLOCAL command
 
 The **ENDLOCAL** command reverts modifications to environment that have 
 happened since the last [SETLOCAL](setlocal) command call.
 
-## Synopsis ##
+## Synopsis
 
     ENDLOCAL
 
@@ -23,7 +23,7 @@ scope of **ENDLOCAL** is reduced: it can only revert changes made after
 When calling **ENDLOCAL**, the [%ERRORLEVEL%](errorlevel) variable is left 
 unmodified.
 
-## Saving a modification to parent environment ##
+## Saving a modification to parent environment
 
 **ENDLOCAL** reverts all modification to environment. To keep the some 
 modifications, [conditional operators](spec/condop) can be used as follow:
@@ -33,11 +33,11 @@ modifications, [conditional operators](spec/condop) can be used as follow:
     SET my_var=2
     ENDLOCAL & SET my_var=%my_var%
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe** since **218.2**. 
 
-## See also ##
+## See also
 
 [SETLOCAL command](setlocal), [SET Command](set), [Commands list](commands) 
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-# PAUSE command #
+# PAUSE command
 
 Pause batch file execution.
 
-## Synopsis ##
+## Synopsis
 
     PAUSE
 
 Show the message: **"Hit a key to continue"** and wait for a keystroke.
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe**
 
-## See also ##
+## See also
 
 [ECHO command](echo), [SET command](set), [Command List](commands) 
 

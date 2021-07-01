@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# DIR command #
+# DIR command
 
 The **DIR** command lists the content of a folder, and select files froms 
 attributes, or name using [regular expression](spec/regexp).
 
-## Synopsis ##
+## Synopsis
 
      DIR [/A[:]attributes] [/S] [/B] [path]
 
@@ -27,14 +27,14 @@ Search and list files and folders.
 * **/S** : Sets recursive search. See [regular expressions](spec/regexp) for 
   more informations.
 
-## Compatibility ##
+## Compatibility
 
 Supported since **0.4** version.
 
 Mostly compatible with **cmd.exe**. Nevertheless, many switchs used to change 
 output style are not supported.
 
-## See Also ##
+## See Also
 
 [Commande COPY](copy), [Commandes REN et RENAME](ren), [Commande Move](move), 
 [Commandes DEL et ERASE](del) 

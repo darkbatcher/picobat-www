@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-# Quick starting guide #
+# Quick starting guide
 
 **Picobat** is an open source command prompt meant to implement a superset of 
 **cmd.exe** script language \(known as **batch** by most developers\). It is 
 designed to be as simple to use as possible, reliable, portable and 
 lightweight.
 
-## Getting started with Picobat ##
+## Getting started with Picobat
 
 Firstly, if you have never used cmd or an equivalent interpreter before, you 
 should definitely consider reading a tutorial about batch programming. On the 
@@ -21,13 +21,13 @@ by default \(to avoid trashing your OS with potential conflicts\). However,
 calling a **.bat** or **.cmd** script from inside Picobat, leads them to get 
 executed by Picobat.
 
-## Downloading Picobat ##
+## Downloading Picobat
 
 The latest release of picobat is available 
 [here](https://github.com/darkbatcher/picobat/releases). Extract the archive 
 and start playing with **pbat** in the extracted folder.
 
-## Picobat changes ##
+## Picobat changes
 
 Once installed, it is quite straightforward to play with Picobat, especially 
 if you are quite familiar with cmd. However, there is a couple of thing out 
@@ -78,6 +78,13 @@ On the other hand, Picobat also provides you with with a bunch of extensions:
   * Extensions for **IF** command to automatically detect floating-point and 
     compare floating-point numbers.
 
+* The amazing possibility to define functions and procedures in batch using 
+  the Picobat specific [DEF](def) command:
+
+        DEF ADD=(set /a $1=$2+$3)
+        ADD result 4 3
+        ECHO result = %result%
+
 * The ground-breaking possibility to specify logical expressions using 
   **AND** and **OR** and the new [IF](if) extensions, like in the following 
   example:
@@ -111,11 +118,6 @@ On the other hand, Picobat also provides you with with a bunch of extensions:
 * Extended [HELP](help) providing search capabilities and help in various 
   formats including **HTML**.
 
-* The new command [ALIAS](alias) allowing to set up simple and fast aliases 
-  for the commands:
-
-        ALIAS dbs=dir /b /s
-
 * An extension to the [FIND](find) command to use simple regular expressions:
 
         echo match my regular expression | FIND /e "match * regular expression"
@@ -139,7 +141,7 @@ On the other hand, Picobat also provides you with with a bunch of extensions:
 * New [SHIFT](shift) extensions and new **%+** variable containing the 
   remaining arguments.
 
-## Troubleshooting ##
+## Troubleshooting
 
 If you have some questions about or need some help with Picobat, please feel 
 free to join **Picobat**'s official discord at: 

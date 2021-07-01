@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-# CLS command #
+# CLS command
 
 The **CLS** command clears console's screen.
 
-## Synopsis ##
+## Synopsis
 
      CLS
 
 Clear the console's screen.
 
-## Compatibility ##
+## Compatibility
 
 Completly compatible with **cmd.exe**
 
-## See also ##
+## See also
 
 [ECHO command](echo), [TITLE command](title), [Command list](commands) 
 

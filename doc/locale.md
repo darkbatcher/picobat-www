@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# LOCALE command #
+# LOCALE command
 
 The **LOCALE** command tells [pBat](pbat) the path to load translation files. 
 **pBat** uses **.mo** files, generated using GNU gettext though it uses its 
 own internals to read translation files.
 
-## Synopsis ##
+## Synopsis
 
     LOCALE path
 
@@ -20,11 +20,11 @@ If custom paths for translation files are used, this command can be used to
 set up the proper configuration in [pBat\_Auto.bat](pbatauto) which is 
 executed every time a **pBat** process is started.
 
-## Compatibility ##
+## Compatibility
 
 Specific to pBat.
 
-## See also ##
+## See also
 
 [Commands list](commands) 
 

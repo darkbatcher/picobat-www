@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# MOD Command #
+# MOD Command
 
 The **MOD** command is [pBat](pbat)-specific command that enable external 
 modules designed for **pBat** to be loaded at runtime in order to provide 
 extra functionalities through additional internal commands.
 
-## Synopsis ##
+## Synopsis
 
     MOD [/l] [/q] [module ...]
 
@@ -29,12 +29,12 @@ that have been programmed to add commands to the interpretor.
 The process of writing a module for pBat and their capabilities are described 
 inside the **GUIDELINES** file of the source distribution.
 
-## Compatibility ##
+## Compatibility
 
 Not compatible with **cmd.exe**, this is an extension. Available since version 
 **218.3**.
 
-## See also ##
+## See also
 
 [Batbox modules](modules/batbox) 
 

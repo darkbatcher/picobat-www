@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-# IF command #
+# IF command
 
-The **IF** command allows [conditional processing](spec/cond) of commands.
+The **IF** command allows conditional processing of commands.
 
 This command is very important for creating advanced batch scripts as it 
 allows script to make conditionnal execution.
@@ -11,7 +11,7 @@ allows script to make conditionnal execution.
 You might also prefer multilines **IF** to **IF**-[GOTO](goto) combination, 
 which are a little bit disordered.
 
-## Synopsis - First syntax ##
+## Synopsis - First syntax
 
 The very first one just compares two strings, and execute the specified 
 commands if they're both equal. It supports also some basic modifiers. The 
@@ -32,7 +32,7 @@ switches and modifiers :
 * **NOT** : Negation. The code is ran if **string1** and **string2** are 
   different.
 
-## Synopsis - Second syntax ##
+## Synopsis - Second syntax
 
 The second syntax is used to compare either strings and numbers. It allows 
 scripts to perform more advanced test such as testing if one number is greater 
@@ -94,7 +94,7 @@ For example :
 
     IF x!value1! EQU x!value2! command
 
-## Synopsis - Third syntax ##
+## Synopsis - Third syntax
 
 The last syntax allows to perform test on a object. Obviously, the specified 
 command are ran if the test performed returned true.
@@ -124,7 +124,7 @@ be :
 If you specify operator **NOT**, then the code to be executed is ran if the 
 condition is false.
 
-## Synopsis - Expressions (Fourth syntax) ##
+## Synopsis - Expressions (Fourth syntax)
 
 **pBat** offer a fourth syntax for the **IF** command. This syntax allows 
 using logical connectors to build expressions.
@@ -161,7 +161,7 @@ Run the code if the conditions specified by **expression** are met.
 
   Finally, one can affect precedence using brackets **\[\]**.
 
-## Synopsis - ELSE subcommand ##
+## Synopsis - ELSE subcommand
 
 After any kind of previously described **IF**, an **ELSE** keyword may be 
 inserted so that code specified after the **ELSE** will be ran if the **IF** 
@@ -202,7 +202,7 @@ Whereas the following code will fail :
     :: only when %var1% is equal to %var2%
     
 
-## Dealing with spaces ##
+## Dealing with spaces
 
 Almost anyone have already seen the following message output from the prompt :
 
@@ -248,7 +248,7 @@ windows registry\), for exemple, you should use the most robust solution, ie:
     )
     
 
-## The == bug ##
+## The == bug
 
 The fact that the second syntax is much more resistant to 
 [expansion](spec/exp) bugs as been stated previously. Indeed, if a script 
@@ -280,7 +280,7 @@ prefer the following syntax:
     )
     
 
-## Compatibility ##
+## Compatibility
 
 Compatible with **cmd.exe**. Indeed, the use of **IF ERRORLEVEL** is not 
 guaranted to be compatible with **cmd.exe**, as the behaviour of **cmd.exe** 
@@ -291,7 +291,7 @@ Supported since version **0.4**.
 
 **FEQ** comparison is supported since version **0.7.0.1**
 
-## See also ##
+## See also
 
 [FOR command](for), [GOTO command](goto), [CALL command](call), [Command 
 list](commands) 

@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# Parsing #
+# Parsing
 
 The command line **parsing** is done by [pBat](../pbat) in a precise order. 
 Knowing the order of different parsing step is really useful to a batch 
 programmer.
 
-## Parsing steps ##
+## Parsing steps
 
 During parsing, pBat execute steps in the following order:
 
@@ -60,7 +60,7 @@ During parsing, pBat execute steps in the following order:
 * **Execution**: After all the preceding step, the command is finally executed 
   by the appropriate command. 
 
-## See also ##
+## See also
 
 [Command line](cmdline), [Conditional operators](condop)
 

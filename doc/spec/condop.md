@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# Conditional operators #
+# Conditional operators
 
 **Conditional operators** are operators useful allowing different commands to 
 be interconnected. For example, using **conditionnal operators** a command can 
 be executed only upon failure of another command.
 
-## Synopsis ##
+## Synopsis
 
     command1 operator command2 ...
 
@@ -17,7 +17,7 @@ Run two commands linked by a conditional operator:
 
 * **operator** : An operator linking **command1** and **command2**.
 
-## Operators type ##
+## Operators type
 
 There is four types of conditional operators:
 
@@ -73,7 +73,7 @@ There is four types of conditional operators:
 Obviously, there is no limitation in the number of conditional operators that 
 can be used in a single line.
 
-## FOR and IF behaviour ##
+## FOR and IF behaviour
 
 The [FOR](../for) and [IF](../if) are two special command because they change 
 the precedence of **conditional operator**. By default, if there is no block 
@@ -95,13 +95,13 @@ the command-line, enclose the command in a block, as follows:
 
     (for %%A in (1 2 3 4 5 6 7 8 9 10) do command1) & command2
 
-## Compatibility ##
+## Compatibility
 
 Available since **0.5.0.0**.
 
 Compatible with **cmd.exe**, except for the order of process in pipes.
 
-## See Also ##
+## See Also
 
 [Specification index](index), [Environment variables](var) 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# %PBAT_VERSION%, %PBAT_OS%, %PBAT_OS_TYPE%, %PBAT_PATH%, %PBAT_SHARE%, %PBAT_ETC%, %PBAT_IS_SCRIPT% variables #
+# %PBAT_VERSION%, %PBAT_OS%, %PBAT_OS_TYPE%, %PBAT_PATH%, %PBAT_SHARE%, %PBAT_ETC%, %PBAT_IS_SCRIPT% variables
 
 The **%PBAT\_VERSION%** variable expands to the current version of 
 [pBat](pbat).
@@ -20,7 +20,7 @@ flow comes from a script or from the prompt.
 **%PBAT\_SHARE%** and **%PBAT\_ETC%** expands to the locations of various 
 [pBat](pbat) files.
 
-## Synopsis ##
+## Synopsis
 
     %PBAT_VER%
 
@@ -79,13 +79,13 @@ Contains the path to the folder where pBat static data is stored.
 
 Contains the path to the folder where pBat configuration files are stored.
 
-## Compatibility ##
+## Compatibility
 
 Uncompatible with **cmd.exe**, these variable are not defined.
 
 Availiable since version **0.7**.
 
-## See also ##
+## See also
 
 [Environment variables](spec/var), [Specifications index](spec/index) 
 

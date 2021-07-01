@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# EXIT Command #
+# EXIT Command
 
 The **EXIT** command quit [pBat](pbat) current instance, optionally returning 
 an exit code. Exit can also be used to exit the current subroutine.
 
-## Synopsis ##
+## Synopsis
 
     EXIT [/b] [code]
 
@@ -24,13 +24,13 @@ Exit the command prompt.
 
 If **code** is not specified, then the **%ERRORLEVEL%** value is unchanged.
 
-## Compatibility ##
+## Compatibility
 
 Available since **0.4**.
 
 Compatible with **cmd.exe**
 
-## See also ##
+## See also
 
 [GOTO command](goto), [Command list](commands)
 

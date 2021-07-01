@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-# %ERRORLEVEL%, %=EXITCODEASCII% variables #
+# %ERRORLEVEL%, %=EXITCODEASCII% variables
 
 **%ERRORLEVEL%** is an environment variable defined automatically by 
 [pBat](pbat) at end of command execution. It enables checking if the previous 
 command failed. With most commands, if **%ERRORLEVEL%** is equal to 0, then no 
 error occurred.
 
-## Synopsis ##
+## Synopsis
 
     %ERRORLEVEL%
 
@@ -28,7 +28,7 @@ A variable containing the character associated to exit code according to the
 taking account of all the bits of the exit code in **%ERRORLEVEL%**. If not, 
 [pBat](pbat) will only use the least significant 8 bits of the exit code.
 
-## See also ##
+## See also
 
 [Variables](spec/var), [Commands list](commands)
 

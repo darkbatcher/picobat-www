@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# %DATE% and %TIME% variables #
+# %DATE% and %TIME% variables
 
 The **%DATE%** and **%TIME%** environment variable expand to current date and 
 time.
 
-## Synopsis ##
+## Synopsis
 
     %TIME%
 
@@ -21,19 +21,19 @@ leading **0** for hours also.
 Expands to current date, using appropriate locale format. Leading zeros are 
 also added between fields.
 
-## Note ##
+## Note
 
 **%TIME%** and **%DATE%** are dynamic variables, meaning that they are 
 generated during the [variable expansion](spec/exp). Thus these variables can 
 not be modified using [SET](set).
 
-## Compatiblity ##
+## Compatiblity
 
 Compatible with **cmd.exe**.
 
 Available since **0.7**
 
-## See also ##
+## See also
 
 [Environment variable](spec/var), [Specification index](spec/index)
 

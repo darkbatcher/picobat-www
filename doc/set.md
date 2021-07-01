@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# SET command #
+# SET command
 
 The **SET** command can display, set, or remove environment variables that can 
 be later retrieved through [variable expansion](spec/exp).
 
-## Synopsis - Simple set ##
+## Synopsis - Simple set
 
     SET variable[=[content]]
 
@@ -29,7 +29,7 @@ from cmd's **SET** behaviour:
   which case, **content** will be trimmed at the last occurrence of a 
   quotation mark.
 
-## Synopsis - Arithmetic evaluation ##
+## Synopsis - Arithmetic evaluation
 
     SET /a variable=expression
 
@@ -40,7 +40,7 @@ through [SETLOCAL](setlocal) command \(parameter **ENABLEFLOATS**\).
 To get extended help about **arithmetical expressions**, please see the 
 dedicated manual page for [SET /a command](seta).
 
-## Synopsis - Prompting inputs ##
+## Synopsis - Prompting inputs
 
     SET /p variable=question
 
@@ -53,7 +53,7 @@ the following method:
 
     command | SET /p output=
 
-## See also ##
+## See also
 
 [Command list](commands), [ECHO command](echo), [PAUSE command](pause), [SET 
 /a command](seta).

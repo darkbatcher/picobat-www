@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# FOR Command #
+# FOR Command
 
 **FOR** is by no doubt the most useful tool that batch programming provides. 
 It enables processing of numerous type of objects, files, command output, 
@@ -11,7 +11,7 @@ scripts.
 **FOR** loop may seem difficult to use at first sight, nonetheless it is the 
 most important tool to batch programming.
 
-## Synopsis - First syntax ##
+## Synopsis - First syntax
 
 The first syntax allows processing strings.
 
@@ -67,7 +67,7 @@ Output :
     current element : stuff
     current element : "some stuff"
 
-## Synopsis - Second syntax ##
+## Synopsis - Second syntax
 
 The second syntax is based on the **/f** switch. This allow making some 
 transformations on string, commands or files. Note that strings are not split 
@@ -276,7 +276,7 @@ The script output is:
     Waldo is American. He is Charlie's counterpart in US
     Charlie is French. He is Wally's counterpart in France
 
-## Synopsis - Third syntax ##
+## Synopsis - Third syntax
 
 The third syntaxe allows doing traditional **FOR** loops \(ie. a loop 
 incrementing a variable every new loop; in a somehow **C**-like manner\).
@@ -316,7 +316,7 @@ Output:
     9
     10
 
-## Synopsis - Deprecated syntaxes ##
+## Synopsis - Deprecated syntaxes
 
 The following syntaxes have been deprecated since **FOR** no allows to achieve 
 more robust, more flexible alternatives to theses. 
@@ -342,7 +342,7 @@ The second syntax behaves pretty much the same way as the preceding except
 that it requires the **/D** switch and selects only folders matching 
 **regexp**.
 
-## Compatibility ##
+## Compatibility
 
 Mostly compatible with **cmd.exe**. However, any code from **cmd.exe** can be 
 executed with no bugs under **pBat** concerning **FOR** loops.
@@ -361,7 +361,7 @@ Also, **pBat** does process empty lines while using **/F** switches while
 The **FOR** command is availables since version **0.7.0.0**. The **FOR /F** 
 command is totally functionnal since version **0.7.0.2**.
 
-## See also ##
+## See also
 
 [FOR Command](for), [IF command](if)
 

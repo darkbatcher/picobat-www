@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# GOTO command #
+# GOTO command
 
 Jump to a label in a batch script. This command is among the first commands 
 learned while learning batch script, and it is usefull since it allow 
@@ -10,7 +10,7 @@ learned while learning batch script, and it is usefull since it allow
 It might be preferable to use [multiline if](if), especially in the case of a 
 quite short piece of instructions.
 
-## Synopsis ##
+## Synopsis
 
     GOTO [:]label [file] [/Q]
 
@@ -43,7 +43,7 @@ jump failed, the execution continues after the command.
 If **:label** is **:eof** then the **GOTO** command returns from the current 
 subroutine to the previous execution level.
 
-## Constructing a switch/case statement ##
+## Constructing a switch/case statement
 
 The **GOTO** command allows constructing conditional statements such as 
 **switch/case**. This functionality relies on the fact that **\[:\]label** is 
@@ -88,17 +88,17 @@ can be achieved.
     ::End of the batch
     
 
-## Notes ##
+## Notes
 
 For compatibility purpose, the **GOTO** supports syntax that consist in not 
 separating **label** from the command name.
 
-## Compatibility ##
+## Compatibility
 
 This command is compatible with **cmd.exe**, excepted the **file** parameter 
 which is only supported by **pBat**, since version **0.7**
 
-## See also ##
+## See also
 
 [IF command](if), [FOR loop](for), [Conditional running](spec/cond) [Command 
 list](commands) 

@@ -1,24 +1,24 @@
 ---
 layout: default
 ---
-# PECHO command #
+# PECHO command
 
 The **PECHO** command outputs message formatted following rules defined by 
 [PROMPT](prompt). This enables for example to change temporarily the text 
 colour.
 
-## Synopsis ##
+## Synopsis
 
     PECHO format
     PECHO.format
 
 Output **format** according to rules defined by [PROMPT](prompt).
 
-## Compatibility ##
+## Compatibility
 
 **PECHO** is a [pBat](pbat) extension. Available since **218.2**.
 
-## See also ##
+## See also
 
 [Commands list](commands)
 

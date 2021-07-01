@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# pBat Initialization (pBat_Auto.bat) #
+# pBat Initialization (pBat_Auto.bat)
 
 [pBat](pbat) is initialized through the execution of a batch script named 
 **pBat\_Auto.bat**. This file sets some variables and calls user defined 
 scripts.
 
-## Synopsis ##
+## Synopsis
 
     %PBAT_PATH%/pBat_Auto.bat
 
@@ -37,13 +37,13 @@ Note that since the first multi-threaded release **218.1**, the execution of
   means **pBat\_Auto.bat** does not get executed any more upon 
   [pipe](spec/condop) call or [FOR](for) command. 
 
-## Compatibility ##
+## Compatibility
 
 Not compatible with **cmd.exe**, the initialization mechanisms differ.
 
 Available since **0.7**.
 
-## See Also ##
+## See Also
 
 [Environment variables](spec/var), [Specifications Index](spec/index) 
 

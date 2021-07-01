@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# TEA Command #
+# TEA Command
 
 The **TEA** \(Tea Expands Ascii\) command is a text preprocessor allowing easy 
 and fast formating for documents \(either text or html\).
@@ -10,7 +10,7 @@ The **TEA** markup language is lightweight and designed to be simple to learn
 and to understand, allowing the preprocessor to have the tiniest size as 
 possible.
 
-## Synopsis ##
+## Synopsis
 
     TEA source [output] [/E[:]encoding] [/O[:]mode]
 
@@ -45,7 +45,7 @@ Creates a text or HTML document from the **source**.
 
   * **HTML** : Produces a HTML document.
 
-## Synopsis - HTML Options ##
+## Synopsis - HTML Options
 
 You can specify some more option for HTML generation, which are the following 
 :
@@ -71,15 +71,15 @@ Where :
 
   * **MD** : Generate a valid markdown file for **pbat.org**
 
-## TEA Syntax ##
+## TEA Syntax
 
 The tea syntax is described in [TEA Syntax](tea\_syntax) page.
 
-## Auteur ##
+## Auteur
 
 **TEA** was developed by Romain GARBI, it is free software
 
-## À voir aussi ##
+## À voir aussi
 
 [pBat](pbat), [TEA Syntax](tea\_syntax) 
 

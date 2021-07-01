@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# Commands and Argument detection #
+# Commands and Argument detection
 
 Commands and arguments are the two smallest piece of code in batch and are 
 used to describe a single operation the interpreter can execute.
 
-## Argument detection ##
+## Argument detection
 
 What [pBat](../pbat) considers to be arguments is a set characters delimited 
 by delimiters accepted by **pBat** which are colons \(**;**\), semicolons 
@@ -32,7 +32,7 @@ validity of the line, just like the following.
 Note that normal control character like **\|**, **&** or **\(** and **\)** are 
 ignored when surrounded by quotation marks.
 
-## Commands ##
+## Commands
 
 **Commands** are the simplest structure of batch programming. Every action is 
 done using a **command**. Commands are lines \(or a part of line, if 
@@ -83,12 +83,12 @@ Where:
   syntax ambiguous and depict the necessity of making a choice not using 
   brackets, like:
 
-        COMMANDE {choix1|choix2}
+        COMMANDE {choice1|choice2}
 
   No **pBat** command is supposed to use this syntax as it not required for 
   well designed command to require the user to make a mandatory choice.
 
-## See also ##
+## See also
 
 [Conditional operators](condop), [Redirections](red)
 

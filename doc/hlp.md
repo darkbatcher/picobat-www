@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# HLP Command #
+# HLP Command
 
 The **HLP** command print command help. It is a batch script acting as a 
 front-end of the [TEA](tea) command.
 
-## Synopsis ##
+## Synopsis
 
     HLP [name | /b language [encoding] | /l | /d]
 
@@ -36,7 +36,7 @@ Print a manual page.
   This option is an user-friendly way to configure the configuration file 
   **%USERPROFILE%/.pbat/hlp/hlp.conf.bat**.
 
-## Config file ##
+## Config file
 
     %USERPROFILE%/share/hlp/hlp.conf.bat
 
@@ -67,13 +67,13 @@ Variables that must be set are the following:
   Where variables **%txt\_prg%**, **%html\_prg%** et **%ansi\_prg%** define 
   the commands to be executed for every format.
 
-## Compatibility ##
+## Compatibility
 
 **HLP** is not compatible with **cmd.exe**
 
 Available since version **2014.0.9b**.
 
-## See also ##
+## See also
 
 [HELP command](help), [TEA command](tea)
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# pBat command #
+# pBat command
 
 **pBat** is a free, cross-platform command prompt used for batch scripts and 
 command processing.
@@ -9,7 +9,7 @@ command processing.
 **pBat** is a free software, designed to be as compatible as possible with 
 **cmd.exe** proprietary software from **Microsoft**.
 
-## Synopsis ##
+## Synopsis
 
      PBAT [/A[:]attr] [/i input] [/o output] [file] [/ commande | /k command]
 
@@ -37,7 +37,7 @@ Run a command file or wait for an user input.
 
 * **/o output** : redirects standard output to file descriptor **output**.
 
-## Compatibility ##
+## Compatibility
 
 Compatible with any version of **pBat**. Incompatible with **cmd.exe**.
 
@@ -47,14 +47,14 @@ that support either **POSIX** \(and define **\_POSIX\_C\_SOURCE**\) or a
 **MS-WINDOWS** compatible API, including any POSIX-compatible function that is 
 provided by it.
 
-## License ##
+## License
 
 **pBat** is a free software distributed under [GNU General Public 
 License](http://www.gnu.org/licenses/gpl.html) terms. For more informations 
 about free software's philosophy, see [Free Software 
 Fundation's](http://www.fsf.org) website.
 
-## Author ##
+## Author
 
 **pBat** have been written since 2010 by **Darkbatcher \(Romain Garbi\)**. It 
 uses severals helpful free libraries from the [GNU operating 
@@ -66,7 +66,7 @@ pBat uses a few open-source project. Theses project include GNU Iconv, GNU
 Gettext, GNU libmatheval, and linenoise. pBat also includes a few functions 
 from **darkbox** by TSnake41.
 
-## See Also ##
+## See Also
 
 [ECHO Command](echo), [Commands list](commands) 
 

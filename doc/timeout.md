@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# Timeout command #
+# Timeout command
 
 The **TIMEOUT** command sleeps for a delay specified in seconds, or until the 
 user presses a key.
 
-## Synopsis ##
+## Synopsis
 
     TIMEOUT [/T] [/NOBREAK] seconds[.milliseconds]
 
@@ -21,13 +21,13 @@ Wait for **seconds.millisecond** or for a keystroke to resume the execution.
 * **.milliseconds** : An optional supplement to **seconds** specifying extra 
   milliseconds duration. This feature is a [pBat](pbat) extension. 
 
-## Compatiblity ##
+## Compatiblity
 
 Compatible with **cmd.exe**.
 
 Available since **218.2**.
 
-## See also ##
+## See also
 
 [List of pBat command](commands)
 

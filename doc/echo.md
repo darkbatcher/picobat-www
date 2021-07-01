@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# ECHO command #
+# ECHO command
 
 The **ECHO** command has various uses :
 
@@ -9,7 +9,7 @@ The **ECHO** command has various uses :
 
 * Show text in console.
 
-## Synopsis ##
+## Synopsis
 
      ECHO [OFF|ON]
      ECHO text
@@ -26,11 +26,11 @@ Show text in console.
 * **text** : Text to be printed. If you use **ECHO.**, the **text** can be 
   void, in this case, [pBat](pbat) will print an empty line.
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe**.
 
-## See also ##
+## See also
 
 [PAUSE command](pause),[SET command](set),[TITLE command](title),[CLS 
 command](cls),[Command list](commands) 

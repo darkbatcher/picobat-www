@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# PROMPT Command and %PROMPT% Variable #
+# PROMPT Command and %PROMPT% Variable
 
 The **PROMPT** command and the **%PROMPT%** enable changing the text of the 
 command prompt.
 
-## Synopsis ##
+## Synopsis
 
     PROMPT prompt_format
     SET PROMPT=prompt_format
@@ -67,14 +67,14 @@ sub strings will be expanded:
 **PROMPT** without arguments resets **%PROMPT%** variable to its default 
 value.
 
-## Compatibility ##
+## Compatibility
 
 Mostly compatible with **cmd.exe**. However, the **$m** specifier is 
 unsupported. In addition, **$xCODE;** specifier is a [pBat](pbat) extension.
 
 Available since **218.2**.
 
-## See also ##
+## See also
 
 [Commands list](commands)
 

@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-# Environment variables #
+# Environment variables
 
 Environment variables are the most common way to deal with variables with 
 [pBat](../pbat). They are usually defined by the operating system but 
 **pBat** uses its own implementation. Any external binary executed from 
 **pBat** inherits its environment.
 
-## Use ##
+## Use
 
 Environment variables can be defined, deleted or modified using the [SET 
 command](../set).
@@ -16,7 +16,7 @@ command](../set).
 Environment variables can be included in command using [Variable 
 expansion](exp).
 
-## Default defined variables ##
+## Default defined variables
 
 Some environment variables are automatically defined by **pBat**.
 
@@ -49,12 +49,12 @@ Some other variables are defined by the operating system or by
 
 * **%USERPROFILE%** : Current user folder path.
 
-## Note ##
+## Note
 
 Variables names are case insensitive \(eg. **%ErrorLevel%** is equivalent to 
 **%errorlevel%**\).
 
-## See also ##
+## See also
 
 [Special variables ](xvar), [Variable expansion](exp), [Specifications 
 index](index). 

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# Regular expressions #
+# Regular expressions
 
 **Regular expressions** are a way to peek some elements following a specific 
 syntax among a set of elements. They allow elements or files to be selected 
@@ -11,7 +11,7 @@ using an **expression**.
 by **cmd.exe**. As such, they are considerably less flexible than 
 state-of-the-art regular expressions like **PCRE**.
 
-## Syntax ##
+## Syntax
 
 **Regular expressions follow the following syntax**.
 
@@ -35,7 +35,7 @@ the expression **u\*\_test**.
 It is possible to specify some kind of absurd combinations such as **?\*** or 
 **\*\***, these are treated like a single **\***.
 
-## File search expressions ##
+## File search expressions
 
 **Regular expressions** can be used to search files in directories. In this 
 case, any directory delimiter \(eg. **\** or **/**\) is used to cut 
@@ -73,7 +73,7 @@ If we consider the same expression:
 * **\*** : pBat looks for any directories or files inside the directories 
   found at the previous step which name matches **\***.
 
-## Note ##
+## Note
 
 Currently **pBat** include no backtracking systems, meaning that it is always 
 the most greedy possible. In addition, using **cmd.exe** the expression 
@@ -81,13 +81,13 @@ the most greedy possible. In addition, using **cmd.exe** the expression
 not included inside windows thanks to the wide support of [files 
 attributes](attr).
 
-## Compatibility ##
+## Compatibility
 
 Almost compatible with **cmd.exe**.
 
 Available since **0.7.2**.
 
-## See also ##
+## See also
 
 [DIR Command](../dir), [List commands](../commands), [Specification 
 index](index) 

@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-# Directories stack #
+# Directories stack
 
 The **directories stack** allow saving and retrieving directory on a stack. 
 This is useful in case one needs to move inside a directory and then return to 
 the previous directory. It can also be used to detect if a directory exists 
 without using [if exist](../if).
 
-## Push or pop a directory on the stack ##
+## Push or pop a directory on the stack
 
 As a directory is pushed on the stack, it will get on the very top of the 
 stack. The last insterted directory is then on the top.
@@ -40,11 +40,11 @@ Example:
     :: current directory becomes dir1/
     :: the bottom of the heap is reached
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe**.
 
-## See also ##
+## See also
 
 [PUSHD Command](../pushd), [POPD Command ](../popd), [Specifications 
 index](index) 

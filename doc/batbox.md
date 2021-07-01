@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# BATBOX Command #
+# BATBOX Command
 
 Batbox is a command that allow creating easily console graphics and provide a 
 simple interface to get user inputs through keyboard and mouse.
@@ -15,7 +15,7 @@ please check out the **history** section.
 executable. The **BATBOX** command is available for **WINDOWS** and 
 **Unix**-based OSes.
 
-## Synopsis ##
+## Synopsis
 
     MOD modules/batbox
     :: command to load pBat batbox module
@@ -118,7 +118,7 @@ versatile.
 However as of version 5.0, the external version designed to be used with 
 **cmd.exe** is not released but its release is planned for version 5.1. 
 
-## Numbers ##
+## Numbers
 
 Some subcommands require numbers to be passed to **BATBOX**. Such numbers can 
 be specified in three numeral bases with the following prefixes :
@@ -132,7 +132,7 @@ be specified in three numeral bases with the following prefixes :
 For theses reasons, it is important to prepend the **0x** suffix when dealing 
 with the **/c** subcommand to specify hexadecimal notation.
 
-## History ##
+## History
 
 The very first batbox command was programmed by Romain Garbi \(also known as 
 DarkBatcher\) around the end of 2010 using C as programming language. The 
@@ -170,7 +170,7 @@ capability to make batbox more efficient and more flexible, resulting in
 version 5.x. This new implementation allows for new features such as setting 
 environment variable in the parent interpretor.
 
-## License ##
+## License
 
 Batbox is provided under the GNU GPL license, copyrighted 2018 by Romain 
 Garbi. Older versions are also licensed under the 3-clause BSD license.

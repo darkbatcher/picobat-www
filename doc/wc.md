@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# WC Command #
+# WC Command
 
 The **WC** command display count of a files \(size, number of lines or 
 words\).
 
-## Synopsis ##
+## Synopsis
 
     WC [/L] [/C] [/M] [/W] [files ...]
 
@@ -35,11 +35,11 @@ If no switch was supplied to pBat, the default command is:
 
     WC /C files ...
 
-## Compatibility ##
+## Compatibility
 
 Not available on **cmd.exe**. Available since **217.1**.
 
-## See Also ##
+## See Also
 
 [Command list](commands), [XARGS command](xargs) 
 

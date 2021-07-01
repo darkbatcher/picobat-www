@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# PUSHD command #
+# PUSHD command
 
 The **PUSHD** command permit to display which directory is at the top of **the 
 directory stack** and change current directory by pushing the previous into 
 **the directory stack**.
 
-## Synopsis ##
+## Synopsis
 
      PUSHD [path1] [path2] [path3] [pathX]  
 
@@ -19,14 +19,14 @@ directory stack**.
 
 In case of error, the **error code** match with the failed **path**.
 
-## Compatibility ##
+## Compatibility
 
 Mostly compatible with **cmd.exe**. The paths containing spaces must be 
 delimited by double quotes to use multiples directories without confusion.
 
 Multiples directories are an **pBat** extension.
 
-## See also ##
+## See also
 
 [CD command](cd), [POPD command](popd), [Directory stack](spec/dirstack), 
 [Command list](commands) 

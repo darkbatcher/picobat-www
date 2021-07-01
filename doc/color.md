@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-# COLOR command #
+# COLOR command
 
 The **COLOR** command changes the colours of both console's background and 
 text.
 
-## Synopsis ##
+## Synopsis
 
     COLOR [code]
 
@@ -35,13 +35,13 @@ foreground color. Note that a call to **COLOR** changes the default color, as
 such, the color referred to by **.** is not fixed across numerous calls to 
 **COLOR**, as it is across [PROMPT](prompt) calls.
 
-## Compatibility ##
+## Compatibility
 
 Fully compatible with **cmd.exe**.
 
 Available since version **0.7**.
 
-## See also ##
+## See also
 
 [CLS command](cls), [ECHO command](echo), [Command list](commands) 
 

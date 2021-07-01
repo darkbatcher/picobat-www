@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# The command-line #
+# The command-line
 
 The **command-line** is probably one of the most important concepts of batch 
 programming. It describes a set of command and blocks \(possibly nested\) 
 separated by [conditional operators](condop).
 
-## Block ##
+## Block
 
 A **block** is a construct that allows grouping several command-lines 
 separated by a new line. inside a single execution context, enabling them to 
@@ -50,7 +50,7 @@ However, precedence can be modified using blocks as follows:
 In this case, **command3** only gets executed upon a failure of **command2** 
 which is ran only if **command1** succeeds.
 
-## Command-line ##
+## Command-line
 
 A command-line is the most general construct existing in batch programming. It 
 refers to a well-constructed code line that can contain a combination of 
@@ -92,7 +92,7 @@ form for describing grammars.
        | normal-command
     
 
-## See also ##
+## See also
 
 [Commands](command), [Conditional operators](condop)
 

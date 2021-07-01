@@ -1,13 +1,13 @@
 ---
 layout: default
 ---
-# CALL command #
+# CALL command
 
 The **CALL** command enables label or command file execution within the 
 current command promp context \(e.g. the command executed can change 
 [environment variables](spec/var) values of calling script\).
 
-## Synopsis ##
+## Synopsis
 
     CALL [/e] [file] [:label] [parameters ...]
 
@@ -40,13 +40,13 @@ The ability to provide either **file** and **:label** are a **pBat**
 extension. You can get a **cmd.exe** compatible behavior by setting the option 
 **CMDLYCORRECT** from the command [SETLOCAL](setlocal).
 
-## Compatibility ##
+## Compatibility
 
 Compatible with **cmd.exe**, exception made for the **/e** switch.
 
 Available since version **2014.0.9**.
 
-## See also ##
+## See also
 
 [FOR command](for), [IF command](if), [GOTO command](goto)
 
